@@ -1,0 +1,17 @@
+.nav-title{
+    position:fixed;
+}
+.navigation{
+    border-bottom:1px solid #DEDEDE;
+}
+.user-name{
+    color:#555A9c;
+    margin-left:700px;
+}
+.user-icon{
+    margin-left:10px;
+    transform:scale(1.0)
+}
+.navbar-brand{
+    margin-left:60px;
+}

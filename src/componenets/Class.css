@@ -1,0 +1,232 @@
+*{
+    background-color:F9FBFD;
+}
+.container {
+   
+    display: flex;
+    flex-direction:row;
+    overflow:scroll; 
+    overflow-x:hidden;
+    
+}
+.left-container {
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+}
+.class-container {
+    width: 200px;
+    border: 1px solid dashed;
+    background-color: aqua;
+    color: black;
+    
+}
+
+
+.msg-container {
+    padding: 20px;
+    padding-top: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+    width: 90%;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    background-color: rgba(75,13,186);
+    box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+}
+#class-time {
+    color:white;
+    background-color: rgba(75,13,186);
+    width:300px;
+}
+.class-topics {
+    margin-top:5px;
+    margin-right: 10px;
+    border: 1px solid #4B0DBA;
+    border-radius: 10px;
+    background-color:white;
+    width:90%;
+
+}
+#title{
+    color:#555A8F;
+    background-color:white;
+}
+#class-day {
+    font-weight: 400;
+    background-color: white;
+}
+
+.class-timings {
+    margin: 7px;
+    margin-left: 60px;
+    padding: 14px;
+    padding-bottom:3px;
+    width:90%;
+   
+}
+.content-title {
+    color: black;
+    margin-bottom: 1px;
+    background-color: white;
+}
+#contents {
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-weight: 400;
+    background-color: white;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 15px;
+    margin-left: 0;
+    padding: 10px;
+    width: 600px;
+    height: 500px;
+   
+}
+
+.roadmap {
+    background: white;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: max-content;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+    padding: 15px;
+    
+}
+
+.class-timings {
+    background: #fff;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: max-content;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+}
+
+ .progress-head{
+     width:100%;
+     height:49px;
+     left:884px;
+     top:96px;
+     background:#f7f5fc;
+     border-radius:8px 8px 0 0;
+     margin:auto;
+     padding:10px;
+ }
+
+ .progress-header{
+     font-weight:500;
+     margin:8px 4px;
+     font-size:1.2rem;
+ }
+
+ .sessionscontainer{
+     display:grid;
+     grid-template-columns:repeat(5,1fr);
+     grid-column-gap:32px;
+     column-gap:32px;
+     grid-row-gap:16px;
+     row-gap:16px;
+     justify-items:center;
+     padding:16px 32px;
+ }
+.sessionscontainer
+.roadmap-icon{
+    border:2px solid #4b0dba;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+
+}
+
+.step-path-right
+.step-path-left{
+    width:28px;
+    border:2px solid #93a4b7;
+    border-radius:10px;
+    position:relative;
+    bottom:32px;
+}
+.roadmap-header {
+    width: 280px;
+    border-bottom: 1px solid #4b0dba;
+    background-color: white;
+    margin: 0;
+}
+.roadmap-title {
+    background-color: white;
+}
+
+.session {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+}
+.session-map {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 1px;
+    row-gap: 5px;
+    justify-items: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: white;
+}
+
+h6 {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    color: white;
+    background-color: rgba(75,13,186);
+    text-align: center;
+    padding: 10px;
+}
+
+.additional-session-container {
+    background: #F7F5FC;
+
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: max-content;
+    box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+    padding: 15px;
+    margin-top:5px;
+    scroll-behavior:smooth;
+}
+.additional-header {
+    background: #F7F5FC;
+    margin-bottom: 10px;
+}
+
+.additional-title {
+    background: #F7F5FC;
+}
+.session-joining-link {
+    padding-bottom: 2px;
+    background: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    background-color:white;
+    font-weight:900;
+}
+p {
+    font-family: sans-serif;
+    font-weight: 200;
+    background-color: white;
+}
