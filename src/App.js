@@ -1,11 +1,13 @@
+
 import './App.css';
-import Login from '../../zen-portal/src/componenets/Login.js';
-import Dashboard from '../../zen-portal/src/componenets/Dashboard.js'
-import Webcode from '../../zen-portal/src/componenets/Webcode.js'
-import Class from '../../zen-portal/src/componenets/Class.js'
-import Tasks from '../../zen-portal/src/componenets/Tasks.js'
+import Login from './componenets/Login.js';
+import Dashboard from './componenets/Dashboard.js'
+import Webcode from './componenets/Webcode.js'
+import Class from './componenets/Class.js'
+import Tasks from './componenets/Tasks.js'
 import { Routes, Route, BrowserRouter,Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
