@@ -9,7 +9,7 @@ import './Login.css'
 
 function Login() {
     return <>
-        <div className="container">
+        <div className="containers">
             <div className='logo-container'>
                 <img src={zen} alt=''/>
             </div>

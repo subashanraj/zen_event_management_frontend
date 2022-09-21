@@ -7,7 +7,7 @@ function Class() {
         <Sidebar/>
         <Navigationbar/>
          
-        <div className=' container '>
+        <div className=' containers '>
             <div className='left-container lg-8 md-8'>
                 <div className='msg-container'>
                     <h3 id='class-time'>Join the class on time!!</h3>
@@ -17,7 +17,7 @@ function Class() {
                         <h3 id='title'>System design- Day 2 :3oth Aug 2022 @2:20PM</h3>
                         <p id='class-day'>30/08/2022 - Tuesday - 2:30 PM : 5:30 PM</p>
                         <hr></hr>
-                        <div className='ml-3'>
+                        <div className='time ml-3'>
                             <p className='content-title'>Contents:</p>
                             <span id='contents'>System design - Day 2</span>
 

@@ -1,7 +1,7 @@
 *{
     background-color:F9FBFD;
 }
-.container {
+.containers {
    
     display: flex;
     flex-direction:row;
@@ -22,11 +22,10 @@
     
 }
 
-
 .msg-container {
     padding: 20px;
     padding-top: 25px;
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 15px;
     width: 90%;
     border: 1px solid #dedede;
@@ -34,23 +33,25 @@
     background-color: rgba(75,13,186);
     box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
 }
-#class-time {
-    color:white;
-    background-color: rgba(75,13,186);
-    width:300px;
-}
+
 .class-topics {
-    margin-top:5px;
+    margin-top: 5px;
     margin-right: 10px;
+    margin-left: 100px;
     border: 1px solid #4B0DBA;
     border-radius: 10px;
-    background-color:white;
-    width:90%;
-
+    background-color: white;
+    width: 90%;
 }
-#title{
-    color:#555A8F;
-    background-color:white;
+#class-time {
+    color: white;
+    background-color: rgba(75,13,186);
+    width: 300px;
+}
+#title {
+    color: #555A8F;
+    background-color: white;
+ 
 }
 #class-day {
     font-weight: 400;
@@ -59,7 +60,7 @@
 
 .class-timings {
     margin: 7px;
-    margin-left: 60px;
+    margin-left: 80px;
     padding: 14px;
     padding-bottom:3px;
     width:90%;
@@ -107,6 +108,9 @@
     border-radius: 8px;
     height: max-content;
     box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+}
+.time{
+    background-color:white!important;
 }
 
  .progress-head{

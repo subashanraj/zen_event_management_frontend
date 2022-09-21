@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\componenets"
   ],
-  "SelectedNode": "\\D:\\Guvi\\zen-portal",
+  "SelectedNode": "\\src\\componenets\\Dashboard.js",
   "PreviewInSolutionExplorer": false
 }

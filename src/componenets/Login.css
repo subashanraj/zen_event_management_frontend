@@ -12,10 +12,8 @@
 
 .container   {
     margin:0 !important;
-    display: flex;
- 
+    display: block;
     position:relative;
-    flex-direction: row;
     justify-content: space-between;
     
 }

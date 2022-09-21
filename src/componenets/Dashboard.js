@@ -37,7 +37,8 @@ function DashBoard() {
 
             </div>
             <div className=" alert alert-primary">
-                <div className="row d-flex justify-content-between flex-wrap flex-row ticket-box">
+                <div className=" container-fluid row d-flex flex-row">
+                <div className="row d-flex justify-content-between flex-wrap flex-column ">
                     <div className="   me-1 mx-2 py-5 mb-3    dash-activity">
                         <h3> Front-End : 85 % </h3>
                     </div>
@@ -53,7 +54,8 @@ function DashBoard() {
                     <div className="  me-1 mx-2 py-5 mb-3   dash-activity3">
                         <h3> Elegablity : True </h3>
                     </div>
-                </div>
+                    </div>
+                    </div>
 
                 {/* Doughnut chart Card */}
 
